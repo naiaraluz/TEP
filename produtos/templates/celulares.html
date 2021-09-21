@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+Celulares
+{% endblock %}
+
+
+{% block conteudo %}
+        <script>alert('Redirecionamento: Listagem de Celulares')</script>
+        <h1>Lista de Celulares</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Xaiomi</td>
+                    <td>R$ 3.200</td>
+                </tr>
+                <tr>
+                    <td>iPhone</td>
+                    <td>R$ 10.200</td>
+                </tr>
+                <tr>
+                    <td>Samsung</td>
+                    <td>R$ 4.200</td>
+                </tr>
+            </tbody>
+        </table>
+{% endblock %}
+
+{% block lateral %}
+        <h2>Categorias</h2>
+        <ul>
+            <li>Ofertas do dia</li>
+            <li>Samsung</li>
+            <li>Apple</li>
+            <li>Xaiomi</li>
+            <li>Outros</li>
+        </ul>
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block titulo %}
+Móveis
+{% endblock %}
+
+{% block conteudo %}
+    <script>alert('Redirecionamento: Listagem de Móveis')</script>
+        <h1>Lista de Móveis</h1>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mesa de Jantar</td>
+                    <td>R$ 3.200</td>
+                </tr>
+                <tr>
+                    <td>Cadeira</td>
+                    <td>R$ 1.200</td>
+                </tr>
+            </tbody>
+        </table>
+{% endblock %}
+
+{% block lateral %}
+        <h2>Categorias</h2>
+        <ul>
+            <li>Ofertas do dia</li>
+            <li>Mesa Jantar</li>
+            <li>Cadeira</li>
+            <li>Poltrona</li>
+            <li>Escritório</li>
+        </ul>
+{% endblock %}
